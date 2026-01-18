@@ -1,0 +1,22 @@
+{
+  "name": "01-shopping-cart-backend",
+  "version": "1.0.0",
+  "description": "Stripe para carrito de compras en react",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "stripe": "^20.1.2"
+  }
+}
