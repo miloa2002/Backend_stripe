@@ -3,7 +3,7 @@ import { createPayment, succesPayment, cancelPayment } from "../controllers/paym
 
 const router = express.Router();
 
-router.get("/create-checkout-session", createPayment);
+router.post("/create-checkout-session", createPayment);
 router.get("/success", succesPayment);
 router.get("/cancel", cancelPayment);
 
